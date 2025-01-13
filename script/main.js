@@ -304,3 +304,7 @@ const animationTimeline = () => {
 
 // Run fetch and animation in sequence
 fetchData();
+setTimeout(function(){
+  document.getElementById("hbsong").play();
+  console.log("song started");
+},5000)
