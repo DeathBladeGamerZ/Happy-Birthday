@@ -297,3 +297,8 @@ body {
     font-weight: lighter;
   }
 }
+.cred{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
